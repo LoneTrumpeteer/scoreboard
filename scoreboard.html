@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Music Scoreboard</h1>
+    <div class="scoreboard-container">
+        <div id="teamSetup">
+          <label for="numTeams">Number of Teams:</label>
+          <input type="number" id="numTeams" min="1" value="2">
+          <button onclick="createScoreboard()">Create Scoreboard</button>
+        </div>
+        <div id="scoreboard">
+            <!-- Scoreboard table will be dynamically generated here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

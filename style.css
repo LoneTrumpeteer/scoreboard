@@ -1,0 +1,54 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    text-align: center;
+    margin: 20px;
+    /* border: 1px solid green; */
+    background-color: royalblue;
+}
+
+input[type="text"] {
+  font-size: 1.5em;
+  max-width: 75%;
+  text-align: center;
+}
+
+.scoreboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px dashed red; */
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    /* border: 1px solid blue; */
+}
+
+
+th, td {
+    /* border: 2px solid black; */
+    padding: 8px;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#scoreboard {
+    border: 2px solid black;
+    border-radius: 15px;
+    min-width: 400px;
+    min-height: 200px;
+    margin: 25px;
+    background-image: linear-gradient(to bottom right, darkgrey, grey);
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 1.5em;
+    box-shadow: 10px 10px  rgb(50, 50, 50, 1)
+}
